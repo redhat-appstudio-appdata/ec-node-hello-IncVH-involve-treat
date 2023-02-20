@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ec-node-hello-d4m7
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:bfc2f032f45fc6458856e7788ab61165282c519cee17dc2c61af5123c54ced3b
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7849644eba2b5d8502017c4767b7a6c830758455771c7753528908741a1892fe
         name: my-nodejs
         ports:
         - containerPort: 3001
